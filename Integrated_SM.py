@@ -1,6 +1,4 @@
-# State Classes rev 5
-# rev 5 contains code state machine, RTC, SD card wrtiting
-# and output to the m4express that controls the epaper screen
+# Rev0 : Pi4, Time Tracking 
 
 # pylint: disable=global-statement,stop-iteration-return,no-self-use,useless-super-delegation
 
