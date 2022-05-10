@@ -28,8 +28,8 @@ TESTING = False
 # Setup hardware
 
 # Input Pins
-switch_1 = gpiozero.Button(5, pull_up=True)
-switch_2 = gpiozero.Button(6, pull_up=True)
+switch_1 = gpiozero.Button(5, pull_up=False)
+switch_2 = gpiozero.Button(6, pull_up=False)
 
 # Output Pins
 home_scrn = gpiozero.DigitalOutputDevice(17,active_high=True, initial_value=False)
